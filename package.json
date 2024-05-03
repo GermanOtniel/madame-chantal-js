@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "npm run migratedb && nodemon index.js",
+    "prod": "npm run migratedb && node index.js",
     "createdb": "npx sequelize-cli db:create",
     "migratedb": "npx sequelize-cli db:migrate",
     "test": "echo \"Error: no test specified\" && exit 1"
