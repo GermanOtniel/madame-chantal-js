@@ -1,0 +1,26 @@
+{
+  "development": {
+    "username": "germanlizza",
+    "password": "12345678",
+    "database": "madame-chantal-js",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "port": 5432
+  },
+  "test": {
+    "username": "madame_chantal_js_user",
+    "password": "v9YDVYq6TCXQsBF6KMlvNUIi76Iqbt5o",
+    "database": "madame_chantal_js",
+    "host": "v9YDVYq6TCXQsBF6KMlvNUIi76Iqbt5o@dpg-coqj9l779t8c738iit50-a.oregon-postgres.render.com",
+    "dialect": "postgres",
+    "operatorsAliases": false
+  },
+  "production": {
+    "username": "madame_chantal_js_user",
+    "password": "v9YDVYq6TCXQsBF6KMlvNUIi76Iqbt5o",
+    "database": "madame_chantal_js",
+    "host": "v9YDVYq6TCXQsBF6KMlvNUIi76Iqbt5o@dpg-coqj9l779t8c738iit50-a.oregon-postgres.render.com",
+    "dialect": "postgres",
+    "operatorsAliases": false
+  }
+}

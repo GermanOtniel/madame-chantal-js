@@ -1,0 +1,28 @@
+{
+  "name": "madame-chantal-js",
+  "version": "1.0.0",
+  "description": "Proyecto de prueba para establecer una conexión a postgreSQL desde una app de express escrita en JavaScript puro",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run migratedb && nodemon index.js",
+    "createdb": "npx sequelize-cli db:create",
+    "migratedb": "npx sequelize-cli db:migrate",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Germán Otniel",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "morgan": "^1.10.0",
+    "pg": "^8.11.5",
+    "sequelize": "^6.37.3",
+    "sequelize-cli": "^6.6.2"
+  },
+  "devDependencies": {
+    "node-env-file": "^0.1.8"
+  }
+}
