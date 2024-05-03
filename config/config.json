@@ -17,7 +17,7 @@
     "username": "madame_chantal_js_user",
     "password": "v9YDVYq6TCXQsBF6KMlvNUIi76Iqbt5o",
     "database": "madame_chantal_js",
-    "host": "v9YDVYq6TCXQsBF6KMlvNUIi76Iqbt5o@dpg-coqj9l779t8c738iit50-a/madame_chantal_js",
+    "host": "dpg-coqj9l779t8c738iit50-a",
     "dialect": "postgres",
     "dialectOptions": {
       "ssl": {
@@ -30,7 +30,7 @@
     "username": "madame_chantal_js_user",
     "password": "v9YDVYq6TCXQsBF6KMlvNUIi76Iqbt5o",
     "database": "madame_chantal_js",
-    "host": "v9YDVYq6TCXQsBF6KMlvNUIi76Iqbt5o@dpg-coqj9l779t8c738iit50-a/madame_chantal_js",
+    "host": "dpg-coqj9l779t8c738iit50-a/madame_chantal_js",
     "dialect": "postgres",
     "dialectOptions": {
       "ssl": {
