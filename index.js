@@ -31,7 +31,13 @@ app.use(logger("dev"));
 app.use(cors());
 
 // Deffine .env file
-env(__dirname + "/.env");
+if (process.env.NODE_ENV === "development") {
+  try {
+    env(__dirname + "/.env"); 
+  } catch (error) {
+    console.log(error)
+  }
+}
 
 /*// Settings urlencoded and add to express
 app.use(bodyParser.urlencoded({ extended: true }));
