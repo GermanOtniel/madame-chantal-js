@@ -2,12 +2,15 @@
 const express = require("express");
 const router = express.Router();
 const users = require("../models").User;
+const portfolioUserRouter = require("./portfolioUsers/portfolioUsers");
 
 router.get("/api", async (req, res) => {
   res.status(200).send({
     message: "Welcome to the Index API!",
   });
 });
+
+router.use("/portfolioUser", portfolioUserRouter);
 
 router.post("/user", async (req, res) => {
   try {
