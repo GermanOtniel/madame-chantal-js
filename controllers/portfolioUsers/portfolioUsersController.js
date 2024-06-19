@@ -117,11 +117,16 @@ module.exports = {
     try {
       let hasPagination = false;
       const { perPage, page } = req.query;
-      let query = {};
+      let query = {
+        order: [
+          ['createdAt', 'ASC']
+        ]
+      };
 
       if (page && perPage) {
         const offset = (page - 1) * perPage;
         query = {
+          ...query,
           limit: parseInt(perPage),
           offset: parseInt(offset)
         };
